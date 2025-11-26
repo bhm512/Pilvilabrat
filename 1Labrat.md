@@ -47,3 +47,10 @@ IAM Policy = what you can do
 
 I it is also important to use a principle of least privilege!
 
+### Azure
+
+In Azure it is important to remember that RBAC is the main tool to work with roles and scopes. Also assigning to a role at higher scope inherits permissions! Unlike IAM policies with AWS, Azure RBAC uses predefined role definitions.
+
+## Document configurations you used with each cloud services during the lab: IAM, Networking, Compute, Storage, Database, etc.
+
+
