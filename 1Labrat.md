@@ -83,12 +83,12 @@ Well both labs were around same subjects such as: working with cloud security ba
 
 ## Create a mapping to yourself what are equivalent services and concepts between AWS and Azure.
 
-IAM User = Azure AD User
-IAM Group = Azure AD Group
-IAM Role = RBAC Role Assingment
-IAM Policies = Role Definitions
-AWS Account = Azure Subscription
-Permission Boundaries = Azure Policy
+ - IAM User = Azure AD User
+ - IAM Group = Azure AD Group
+ - IAM Role = RBAC Role Assingment
+ - IAM Policies = Role Definitions
+ - AWS Account = Azure Subscription
+ - Permission Boundaries = Azure Policy
 
 
 [labclient.labondemand.com_Instructions_ExamResult_8d07cd6d-b76f-49f9-a56d-fbe38045f8bc.pdf](https://github.com/user-attachments/files/23780645/labclient.labondemand.com_Instructions_ExamResult_8d07cd6d-b76f-49f9-a56d-fbe38045f8bc.pdf)
