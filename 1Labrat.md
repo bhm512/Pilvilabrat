@@ -77,7 +77,18 @@ First similarity between these two cloud vendors were that they both use identif
 
 The biggest difference that I caught was wiht Role and Policies, AWS IAM permissions defined with JSON policies when Azure RBAC permissions were granted by roles, assigned at certain scope. AWS IAM users exist inside AWS, when Azure Users exist in Azure AD which is whole seperate thing. 
 
+## How do the labs relate to the topics of the module they are associated with?
 
+Well both labs were around same subjects such as: working with cloud security basics and managing users to diffrent roles that they may need. Both applied least priviledge thing and were on right path on security configurations. In short these labs teach you how to use IAM/RBAC concepts in "real life".
+
+## Create a mapping to yourself what are equivalent services and concepts between AWS and Azure.
+
+IAM User = Azure AD User
+IAM Group = Azure AD Group
+IAM Role = RBAC Role Assingment
+IAM Policies = Role Definitions
+AWS Account = Azure Subscription
+Permission Boundaries = Azure Policy
 
 
 [labclient.labondemand.com_Instructions_ExamResult_8d07cd6d-b76f-49f9-a56d-fbe38045f8bc.pdf](https://github.com/user-attachments/files/23780645/labclient.labondemand.com_Instructions_ExamResult_8d07cd6d-b76f-49f9-a56d-fbe38045f8bc.pdf)
