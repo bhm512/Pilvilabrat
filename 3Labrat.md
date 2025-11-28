@@ -37,15 +37,21 @@ The lab-subnet-public1-us-east-1a public subnet has a CIDR of 10.0.0.0/24, which
 
 A NAT Gateway, is a VPC resource used to provide internet connectivity to any EC2 instances running in private subnets in the VPC without those EC2 instances needing to have a direct connection to the internet gateway.
 
-The  lab-subnet-private1-us-east-1a private subnet has a CIDR of 10.0.1.0/24, which means that it contains all IP addresses starting with 10.0.1.x.
+The lab-subnet-private1-us-east-1a private subnet has a CIDR of 10.0.1.0/24, which means that it contains all IP addresses starting with 10.0.1.x.
+
 
 ### Document configurations you used with each cloud services during the lab: IAM, Networking, Compute, Storage, Database, etc.
 
+I used many configurations during this lab and here are most important ones:
 
-
+- Created VPC and configured CIDR Block to 10.0.0.0/16
+- Changed Public subnet to 10.0.1.0/24
+- Internet Gateway -> attached it to the VPC
+- In Security Groups i allowed 22 (SSH) and  allowed HTTP (80)
+- EC2 -> t2.micro, Amazon Linux/Ubuntu, web server installation
+  
 
 <img width="1469" height="707" alt="Näyttökuva 2025-11-28 kello 16 51 48" src="https://github.com/user-attachments/assets/7f7d8ba6-ae04-46d1-aeba-4707cb8c377c" />
-
 
 
 
