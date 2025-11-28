@@ -110,11 +110,13 @@ These things were on module topics:
 
 ### Create a mapping to yourself what are equivalent services and concepts between AWS and Azure.
 
-Compute
-n
-
-
-
+ - EC2 = Azure Virtual Machine
+ - VPC = Virtual Network
+ - Security Groups = NSG (Network Security Group)
+ - S3 = Blob Storage
+ - IAM Users = Azure AD Users
+ - IAM Roles = Role Assingment
+ - Policies = Role Definions
   
 <img width="658" height="256" alt="Näyttökuva 2025-11-28 kello 15 00 04" src="https://github.com/user-attachments/assets/0f017930-20f1-437e-a176-773fdcc9ad27" />
 
