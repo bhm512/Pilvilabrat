@@ -111,7 +111,7 @@ These things were on module topics:
 ### Create a mapping to yourself what are equivalent services and concepts between AWS and Azure.
 
 Compute
-
+n
 
 
 
