@@ -28,12 +28,12 @@ The lab-subnet-public1-us-east-1a public subnet has a CIDR of 10.0.0.0/24, which
 
 ### What technical details did you learn from the lab about each cloud services used?
 
-VPC = is isolated virtual network for AWS Recources.
-CIDR = Is a range of IP addresses that share common network prefix.
-Public subnet = routes traffic in to the Internet Gateway.
-Private subnet = no direct internet route.
-Internet Gateway = is must have for instances to access internet.
-Security Groups = Must explicitly allow inbound HTTP/SSH.
+- VPC = is isolated virtual network for AWS Recources.
+- CIDR = Is a range of IP addresses that share common network prefix.
+- Public subnet = routes traffic in to the Internet Gateway.
+- Private subnet = no direct internet route.
+- Internet Gateway = is must have for instances to access internet.
+- Security Groups = Must explicitly allow inbound HTTP/SSH.
 
 A NAT Gateway, is a VPC resource used to provide internet connectivity to any EC2 instances running in private subnets in the VPC without those EC2 instances needing to have a direct connection to the internet gateway.
 
