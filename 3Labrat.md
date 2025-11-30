@@ -115,10 +115,10 @@ Both labs were build around same topic: networking and here are some similaritie
 
 Same concept = different terminology
 
-AWS = VPC when Azure = Vnet
-AWS = Public Subnet when Azure = Subnets
-AWS = Security Groups when Azure = Network Security Groups (NSGs)
-AWS = EC2 Instance when Azure = VM
+- AWS = VPC when Azure = Vnet
+- AWS = Public Subnet when Azure = Subnets
+- AWS = Security Groups when Azure = Network Security Groups (NSGs)
+- AWS = EC2 Instance when Azure = VM
 
 Different: 
 
