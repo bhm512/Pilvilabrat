@@ -4,7 +4,7 @@
 
 ### What was specifically done in the lab?
 
-This lab the goal was to build a scabable cloud architecture consisting of multiple compute resources behind a load balancer.
+In this lab the goal was to build a scabable cloud architecture consisting of multiple compute resources behind a load balancer.
 Used existing VPC environment and launched Elastic Load Balancer to distribute traffic across two or more instances.
 Also had to configure Elastic Load Balancer
 
