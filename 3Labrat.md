@@ -128,4 +128,21 @@ Firewalls; AWS = Security Groups only and Azure has NSG at NIC or Subnet
 
 ## How do the labs relate to the topics of the module they are associated with?
 
+These labs totaly support the modules by network topics.
 
+There was spots were I needed to work with Cloud Networking fundamentals in both labs. Also subnets and private vs public networks were strongly represent. 
+Module teached also ho cloud networks send stuff between the subnest and internet. These things linked to routing tables and internet gateways. 
+Network security is also important with databases and you should always use least priviledge in firewall rules and pay attention to inbound/outbound connectivity. 
+
+## Create a mapping to yourself what are equivalent services and concepts between AWS and Azure.
+
+AWS - Azure
+
+- VPC - Vnet
+- Internet Gateway - Public Ip + default route
+- Security Group (SG) - Network Security Group (NSG)
+- Elastic IP - Public IP Address
+- EC2 Instance - VM
+- EBS Volume - Azure Managed Disk
+
+  
